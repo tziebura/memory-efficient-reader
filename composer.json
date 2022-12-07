@@ -1,0 +1,27 @@
+{
+    "name": "tziebura/data-file-reader",
+    "description": "File reader for CSV/XLSX files using Flysystem as file system adapter",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "openspout/openspout": "^3.7",
+        "ext-mbstring": "*",
+        "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomasz Ziebura",
+            "email": "dev.ziebura@gmail.com"
+        }
+    ]
+}
